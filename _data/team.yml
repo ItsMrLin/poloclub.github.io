@@ -34,25 +34,11 @@
     - title: google
       url: https://scholar.google.com/citations?user=vieI1GYAAAAJ
 
-- name: Yiqi (Victor) Chen
-  pic: victor.png
-  position: Software Engineer, Facebook
+- name: Fred Hohman
+  pic: fred.jpg
+  position: PhD Student, Georgia Tech
   social:
     - title: home
-      url: #
+      url: http://fredhohman.com
     - title: linkedin
-      url: #
-    - title: twitter
-      url: #
-
-
-- name: Diana Petersen
-  pic: 3.jpg
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+      url: https://www.linkedin.com/in/fredhohman
