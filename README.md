@@ -5,8 +5,12 @@ Agency theme based on [Agency bootstrap theme ](http://startbootstrap.com/templa
 
 # How to use
 
+### Site title & description 
+'_config.yml'
+
+
 ### Site Skeleton
- /_layout/default.html
+ '/_layout/default.html'
 
 
 ### Portfolio 
