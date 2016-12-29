@@ -1,0 +1,27 @@
+<!-- Sponsors -->
+    <section id="sponsors">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Sponsors</h2>
+                    <h3 class="section-subheading text-muted">Our research made possible by support and funding from: NSF (IIS1563816, IIS1551614, TWC1526254, IIS1217559), NIH (1-U54EB020404-01), DARPA, Children's Healthcare of Atlanta, Google, Symantec, Yahoo, Intel, Mircosoft, eBay, Amazon, LogicBlox, LexisNexis Dean's Award, James C. Edenfield Faculty Fellowship, Raytheon Faculty Fellowship</h3>
+                </div>
+            </div>
+            <div class="row">
+                {% for sponsor in site.data.sponsors %}
+                <div class="col-md-3 col-sm-6">
+                    <a href="{{ sponsor.url }}">
+                        <img src="img/sponsors/{{ sponsor.pic }}" class="img-responsive" style="max-height:150px; padding:0px 15px;" alt="{{ sponsor.name }}">
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+
+<!--             <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                </div>
+            </div> -->
+
+        </div>
+    </section>

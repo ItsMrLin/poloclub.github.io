@@ -1,0 +1,71 @@
+- name: Google
+  pic: google.png
+  url: http://www.google.com/
+
+- name: Symantec
+  pic: symantec.png
+  url: http://www.symantec.com/
+
+- name: Yahoo!
+  pic: yahoo.png
+  url: http://www.yahoo.com/
+
+- name: eBay
+  pic: ebay.png
+  url: http://www.ebay.com/
+
+- name: Intel
+  pic: intel.png
+  url: http://www.intel.com/
+
+- name: Amazon
+  pic: amazon.png
+  url: http://www.amazon.com/
+
+- name: Microsoft Research
+  pic: msr.png
+  url: https://www.microsoft.com/en-us/research/
+
+- name: Children's Healthcare of Atlanta
+  pic: choa.png
+  url: http://www.choa.org
+
+- name: Microsoft Azure
+  pic: microsoft-azure.png
+  url: http://azure.microsoft.com/
+
+- name: AWS Educate
+  pic: aws-educate.png
+  url: https://aws.amazon.com/education/awseducate/
+
+- name: LexisNexis
+  pic: lexisnexis.jpg
+  url: http://www.lexisnexis.com/
+
+- name: LogicBlox
+  pic: logicblox.png
+  url: http://www.logicblox.com/
+
+- name: NSF
+  pic: nsf.png
+  url: http://www.nsf.gov
+
+- name: DARPA
+  pic: darpa.png
+  url: http://www.darpa.mil
+
+- name: NIH
+  pic: nih.png
+  url: http://www.nih.gov
+
+- name: James C. Edenfield Fellowship
+  pic: edenfield.png
+  url: 
+
+- name: Raytheon Faculty Fellowship
+  pic: raytheon.png
+  url: 
+
+# - name: 
+#   pic: 
+#   url: http://

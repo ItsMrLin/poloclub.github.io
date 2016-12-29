@@ -337,10 +337,10 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: {{ site.data.template.font.secondary }};
-    font-size: 16px;
-    font-style: italic;
-    font-weight: 400;
+    font-family: {{ site.data.template.font.primary }};
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 125%;
 }
 
 @media(min-width:768px) {
@@ -652,7 +652,7 @@ section h3.section-subheading {
     margin-top: 0;
 }
 
-aside.clients img {
+#sponsors img {
     margin: 50px auto;
 }
 
