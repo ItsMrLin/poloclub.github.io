@@ -654,6 +654,8 @@ section h3.section-subheading {
 
 #sponsors img {
     margin: 50px auto;
+    max-height:150px;
+    padding:0px 10px;
 }
 
 section#contact {
