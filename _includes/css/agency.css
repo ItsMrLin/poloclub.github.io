@@ -640,16 +640,20 @@ section h3.section-subheading {
 .team-member img {
     margin: 0 auto;
     border: 7px solid #fff;
+    max-height: 150px;
 }
 
 .team-member h4 {
-    margin-top: 25px;
-    margin-bottom: 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
     text-transform: none;
+    font-size: 18px;
 }
 
 .team-member p {
     margin-top: 0;
+    font-family: {{ site.data.template.font.primary }};
+    line-height: 120%;
 }
 
 #sponsors img {
@@ -749,13 +753,13 @@ ul.social-buttons {
 
 ul.social-buttons li a {
     display: block;
-    width: 40px;
-    height: 40px;
+    width: 32px;
+    height: 32px;
     border-radius: 100%;
-    font-size: 20px;
-    line-height: 40px;
-    color: #fff;
-    background-color: #777;
+    font-size: 17px;
+    line-height: 30px;
+    color: #666;
+    background-color: #fff;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
