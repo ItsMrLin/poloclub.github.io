@@ -345,7 +345,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 100px 0;
     }
 }
 
@@ -638,8 +638,8 @@ section h3.section-subheading {
 }
 
 .team-member img {
-    margin: 0 auto;
-    border: 7px solid #fff;
+    margin: 5px auto;
+/*    border: 7px solid #fff;*/
     max-height: 150px;
 }
 
