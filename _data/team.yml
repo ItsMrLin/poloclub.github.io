@@ -1,7 +1,7 @@
 # Team names, titles and social links
 
 - name: Acar Tamersoy
-  pic: pientars.png
+  pic: acar.jpg
   position: Research Scientist, Symantec Research Labs
   social:
     - title: home
@@ -44,7 +44,7 @@
       url: https://www.linkedin.com/in/fredhohman
 
 - name: Yiqi (Victor) Chen
-  pic: victor.png
+  pic: victor.jpg
   position: Software Engineer, Facebook
   social:
     - title: home
