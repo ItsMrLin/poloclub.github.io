@@ -660,10 +660,18 @@ section h3.section-subheading {
     line-height: 120%;
 }
 
-#sponsors img {
-    margin: 50px auto;
-    max-height:150px;
-    padding:0px 10px;
+.sponsor {
+    position:relative;
+    height: 200px;
+}
+
+.sponsor img {
+    max-height: 200px;
+    position:absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0px 25px;
 }
 
 section#contact {
