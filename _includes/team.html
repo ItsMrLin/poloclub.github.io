@@ -11,16 +11,22 @@
                 {% for member in site.data.team %}
                 <div class="col-sm-4 col-md-2">
                     <div class="team-member">
+                        
+                        <a href="{{ member.homepage }}"> <!-- clicking portrait goes to default homepage -->
                         <img src="img/team/{{ member.pic }}" class="img-responsive img-circle" alt="">
+                        </a>
+
                         <ul class="list-inline social-buttons">
-                            {% for network in member.social %}
+                            {% for social in member.social %}
                             <li>
-                                <a href="{{ network.url }}">
-                                    <i class="fa fa-{{ network.title }}"></i>
+                                <a href="{{ social.url }}">
+                                    <i class="fa fa-{{ social.title }}"></i>
                                 </a>
                             </li>
                             {% endfor %}
                         </ul>
+
+
                         <h4>{{ member.name }}</h4>
                         <p class="text-muted">{{ member.position }}</p>
                         <p class="text-muted">{{ member.fun }}</p>
