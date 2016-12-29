@@ -15,3 +15,13 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="{{ "/js/agency.js" | prepend: site.baseurl }}"></script>
+
+
+<!-- Set the divs containing sponsor logos to be the same height, when document loads -->
+<script src="{{ "/js/jquery.matchHeight-min.js" | prepend: site.baseurl }}"></script>
+
+<script type="text/javascript">
+$(function() {
+    $('div.sponsor').matchHeight();
+});
+</script>
